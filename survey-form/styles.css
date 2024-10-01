@@ -1,3 +1,79 @@
-input,label{
-  /* display:block; */
+input , label , textarea{
+  display:block;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+background-color:#5e5d9c;
+color:#f8f7fe;
+font-family: 'Poppins', sans-serif;
+}
+main{
+  width:80%;
+  margin: 4rem auto ;
+  max-width:800px;
+  height:100vh;
+}
+
+#title{
+  font-weight:400;
+  font-size:2rem;
+  text-align:center;
+
+}
+#description{
+text-align:center; 
+font-weight:300;
+font-style: italic;
+word-spacing:0.1rem;
+margin:0.5rem 0 1rem 0;
+
+}
+.form-container{
+background-color:#1b1b32;
+ padding:2rem;
+}
+
+.input-group{
+ margin:1.5rem;
+ display:flex;
+ flex-direction:column;
+ gap:0.5rem;
+}
+
+#name,#email,#number,#dropdown,#favorite-feature{
+  height:2rem;
+  padding:4px 4px 4px 8px;
+  border-radius: 0.25rem;
+
+}
+
+.radio-option{
+display:flex;
+gap:0.8rem;
+}
+
+.checkbox-option{
+ display:flex;
+gap:0.8rem; 
+}
+
+#comments{
+  resize:none;
+  padding:1rem;
+  height:100px;
+}
+
+#submit{
+
+ width:100%;
+ color:white;
+ background-color:#5e5d9c;
+ padding:1rem;
+ font-size:1.2rem;
+
 }
